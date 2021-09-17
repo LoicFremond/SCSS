@@ -19,7 +19,7 @@ Une fois cette mixin créée, réalise une simple page HTML, appelée precious.h
 
 ![maquette](http://images.innoveduc.fr/integration_precious_scss.png)
 
-Poste le résultat sur une [page github](https://pages.github.com/).
+Poste le résultat sur une [page github](https://loicfremond.github.io/SCSS/precious.html).
 
 #### Critéres de validation
 
