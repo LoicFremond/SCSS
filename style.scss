@@ -1,22 +1,21 @@
-$main-color: orange;
+$main-color: rgb(255, 115, 0);
 $background-color: #EDEDED;
 $main-font-color: #2B2B2B;
-$golden: yellow;
+$golden: gold;
 $separator: black;
 
 @mixin ring($size, $color){
   border-radius: 50%;
   height: $size;
   width: $size;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(19, 17, 17, 0);
   box-shadow: $size/50 $size/50 $size/50 darken($color, 10%), inset $size/50 $size/50 $size/50 darken($color, 10%);
   border: $size/11 solid $color;
 }
 
 
-/* -------------------------------------- */
-/* Default Fonts                          */
-/* -------------------------------------- */
+/* Default Fonts   */
+
 @font-face {
   font-family: 'anironcregular';
   src: url('fonts/aniron-webfont.woff2') format('woff2'),
@@ -39,9 +38,7 @@ h2 {
   margin: 25px auto;
 }
 
-/* -------------------------------------- */
-/* Navbar                                 */
-/* -------------------------------------- */
+/*   Navbar   */
 
 .navbar.navbar-expand-lg {
   background-color: $main-color;
@@ -66,9 +63,7 @@ h2 {
   }
 }
 
-/* -------------------------------------- */
-/* Mise en page Sections                  */
-/* -------------------------------------- */
+/* Mise en page Sections  */
 
 section {
   background-color: $background-color;
@@ -76,9 +71,7 @@ section {
   padding: 15px;
 }
 
-/* -------------------------------------- */
-/* Footer                                 */
-/* -------------------------------------- */
+/* Footer  */
 
 footer.row {
   background-color: $main-color;
